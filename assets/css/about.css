@@ -18,24 +18,21 @@ body {
     background-color: #ffffff;
 }
 
+.navbar {
+    padding: 1.18775rem 6.5rem;
+    vertical-align: middle;
+    /* border: 1px solid green; */
+}
+
+
 .navbar-brand{
     color: #561D5E;
     font-size: 25px;
     font-weight: 900;
 }
-.navbar-brand:hover{
-    color: #561D5E;
-}
-.navbar {
-    padding: 1.18775rem 6.5rem;
-    vertical-align: middle;
- 
-}
-
 .collapse {
     justify-content: flex-end;
 }
-
 
 .nav-link-btn {
     background: #561D5E;
@@ -50,6 +47,7 @@ body {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .nav-link-btn:hover {
     background: #F5D400;
 }
@@ -65,10 +63,8 @@ body {
 }
 
 .nav-item {
-    /* padding: 0 1.125rem; */
-    padding: 0 .9rem;
+    padding: 0 1.125rem;
 }
-
 
 .hide{
     display: none;
@@ -76,26 +72,22 @@ body {
 
 /* hero-section */
 .hero-section {
-    padding-top: 6.25rem;
+background-image: url(../images/Rectangle\ 10.png);
+background-size: cover;
+background-position: center center;
+height: 100%;
 }
 
-.illusration-image {
-    width: 100%;
+.hero-text{
+    padding:150px 0;
 }
-
-.illus-details {
-    font-family: Lato;
-    font-size: 6rem;
-    font-weight: 900;
-    color: #000000;
-    line-height: 77px;
-}
-
-.illus-details-2 {
-    font-family: Roboto;
-    font-size: 1.2rem;
-    font-weight: 400;
+.hero-main-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
     color: #561D5E;
+    line-height: 1.3;
 }
 
 .touch-btn {
@@ -180,14 +172,15 @@ body {
     padding-top: 50px;
 }
 
+
 .footer-logo .navbar-brand{
     color: #FFFFFF;
     font-size: 50px;
 }
 
-
 .nav .nav-link {
     color: #FFFFFF;
+    /* padding:2px; */
 }
 
 .nav .nav-link:hover {
@@ -223,12 +216,14 @@ body {
 
 
 
-@media screen and (max-width:62.8125rem){
+
+
+
+@media screen and (max-width:64.125rem){
     .nav-item{
     padding: 0 0.5rem;
     }
 }
-
 
 
 /* 992px */
@@ -246,29 +241,23 @@ body {
         display: none;
     }
 
-    .illustration-text {
-        order: 1;
-        text-align: center;
-    }
-
-    .illus-details {
-        display: inline-block;
-    }
 
     .hero-section {
-        margin-top: 50px;
-    }
-    .card {
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .touch-box {
         padding-bottom: 40px;
     }
 
-    .hide{
-        display: block;
+    
+    .card {
+        margin-bottom: 10px;
     }
+    
+.hide{
+    display: block;
+}
 }
 
 
@@ -282,9 +271,6 @@ body {
         padding: 1.18775rem 1.5rem;
     }
 
-    .card {
-        margin-bottom: 10px;
-    }
 
     .trend-card-head {
         padding: 2.1875rem 0;
@@ -298,7 +284,9 @@ body {
     .footer-logo {
         padding-top: 30px;
     }
-    
+
+
+
 }
 
 /* 600px */
@@ -342,5 +330,13 @@ body {
 
     .footer-logo {
         padding-top: 20px;
+    }
+
+    .hero-text{
+        padding: 50px 0;
+    }
+
+    .hero-main-text{
+        font-size: 40px;
     }
 }
