@@ -23,7 +23,7 @@ body {
     vertical-align: middle;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #561D5E;
     font-size: 25px;
     font-weight: 900;
@@ -65,7 +65,7 @@ body {
     padding: 0 1.125rem;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -163,7 +163,7 @@ body {
     background-color: inherit;
 }
 
-.d{
+.d {
     margin-bottom: 98px;
 }
 
@@ -210,7 +210,7 @@ body {
 }
 
 
-.footer-logo .navbar-brand{
+.footer-logo .navbar-brand {
     color: #FFFFFF;
     font-size: 50px;
 }
@@ -277,13 +277,22 @@ body {
         margin-top: 10px;
     }
 
-    .card{
+    .card {
         margin-bottom: 10px;
     }
+
+    .hero-section {
+        background-image: url(../images/Rectangle\ 10.png);
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+    }
+
     .touch-box {
         padding-bottom: 40px;
     }
-    .hide{
+
+    .hide {
         display: block;
     }
 
@@ -314,11 +323,12 @@ body {
         padding-top: 30px;
     }
 
-    .log-in-section,.overall-padding{
+    .log-in-section,
+    .overall-padding {
         padding: 0 90px;
     }
 
-    .form-box{
+    .form-box {
         padding-top: 50px;
     }
 
@@ -346,11 +356,12 @@ body {
     .get-in-touch-text {
         padding: 20px;
 
-}
+    }
 
-.log-in-section,.overall-padding{
-    padding: 0 50px;
-}
+    .log-in-section,
+    .overall-padding {
+        padding: 0 50px;
+    }
 
 }
 
@@ -386,21 +397,26 @@ body {
 
     .get-in-touch-text {
         padding: 10px;
-}
-.log-in-section,.overall-padding{
-    padding: 0 1.5rem;
-}
-.get-in-touch-box :is(.advert) {
-    margin: 3px;
+    }
+
+    .log-in-section,
+    .overall-padding {
+        padding: 0 1.5rem;
+    }
+    
+  
 }
 
-.get-in-touch{
-    font-size: 40px;
-}
+    .get-in-touch-box :is(.advert) {
+        margin: 3px;
+    }
 
-.get-in-touch-location {
-    font-size: 23px;
-   
-}
+    .get-in-touch {
+        font-size: 40px;
+    }
 
-}  
+    .get-in-touch-location {
+        font-size: 23px;
+
+    }
+
