@@ -40,6 +40,9 @@ body {
    
 }
 
+.btn{
+    border-color: #561D5E;
+}
 .contact-btn{
     font-size: 1rem;
     font-weight: 700;
@@ -161,6 +164,8 @@ height: 100%;
 
 .trend-card {
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
 }
 
 /* footer-section */
@@ -231,6 +236,7 @@ height: 100%;
     .collapse {
         background-color: #561D5E;
         border-radius: 10px;
+        text-align: center;
     }
 
     .nav-link {
